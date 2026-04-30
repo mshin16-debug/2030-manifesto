@@ -76,6 +76,6 @@ This document summarizes how four conceptual roles contributed to the single-pag
 ## Handoff notes
 
 - **Suno:** set `NEXT_PUBLIC_SUNO_IFRAME_HTML` in `.env.local` or paste the iframe into `lib/site-media.ts` (`SUNO_IFRAME_HTML`).
-- **Images:** add `nano-banana.jpg` and `higgsfield.jpg` to `/public` (or edit paths in `lib/site-media.ts`).
+- **Images:** add `design1.jpg`, `design2.jpg`, and `design3.jpg` to `/public` (paths defined in `lib/site-media.ts`).
 - **Assignment:** footer links to **`/agent-report`**, which renders the root **`AGENT_REPORT.md`** file.
 - Deploy on **Vercel** with the default Next.js preset; no extra config required for this app router setup.
