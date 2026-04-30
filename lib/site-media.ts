@@ -1,22 +1,23 @@
 /**
- * Media paths — files live in /public (served at root URL).
- *
- * Drop your files as:
- *   public/nano-banana.jpg
- *   public/higgsfield.jpg
- *
- * If you use different names or formats (.png, .webp), update `src` below.
+ * Media paths — files in /public (served at site root). Must match GitHub repo.
  */
-export const PUBLIC_IMAGES = {
-  nanoBanana: {
-    src: "/nano-banana.jpg",
-    alt: "Nano Banana visual for the 2030 Manifesto — The Human Premium",
+export const MANIFESTO_IMAGES = [
+  {
+    src: "/design1.jpg",
+    alt: "Key visual 1 — 2030 Manifesto, The Human Premium",
+    label: "Design 1",
   },
-  higgsfield: {
-    src: "/higgsfield.jpg",
-    alt: "Higgsfield visual for the 2030 Manifesto — The Human Premium",
+  {
+    src: "/design2.jpg",
+    alt: "Key visual 2 — 2030 Manifesto, The Human Premium",
+    label: "Design 2",
   },
-} as const;
+  {
+    src: "/design3.jpg",
+    alt: "Key visual 3 — 2030 Manifesto, The Human Premium",
+    label: "Design 3",
+  },
+] as const;
 
 /**
  * Suno embed: paste the full <iframe ...></iframe> string Suno gives you.
